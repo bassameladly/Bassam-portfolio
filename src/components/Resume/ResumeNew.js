@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import BassamResume from "../../Assets/Bassam (React- React-native Developer)  CV (1) (1).pdf";
+import BassamResume from "../../Assets/Bassam React & React Native Developer CV.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
