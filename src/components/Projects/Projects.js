@@ -58,7 +58,7 @@ function Projects() {
               imgPath={CRUD}
               isBlog={false}
               title="React Redux toolkit CRUD App"
-              description="CRUD App for create, delete, fetch and update posts, created by React js and reduxtoolkit with json-server API"
+              description="CRUD App for create, delete, fetch and update posts, created by React js and reduxtoolkit with local json-server API, note you have to run local json-server to see everything"
               ghLink="https://github.com/bassameladly/React-redux-CRUD-app.git"
               demoLink="https://react-redux-crud-app-two.vercel.app/"
             />
