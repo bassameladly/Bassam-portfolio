@@ -7,6 +7,8 @@ import portfolio from "../../Assets/Projects/portfolio.webp";
 import weatherapp from "../../Assets/Projects/weatherapp.jpg";
 import ecommerce from "../../Assets/Projects/ecommerce.jpg";
 import movieapp from "../../Assets/Projects/movieapp.jpg";
+import youtube from "../../Assets/Projects/youtube.png";
+
 
 function Projects() {
   return (
@@ -39,6 +41,16 @@ function Projects() {
               description="Movie search app for searching on your favourite movie, created by react js, bootstrap redux toolkit with movies API "
               ghLink="https://github.com/bassameladly/react_movie_search_app"
               demoLink="https://react-movie-search-app-ivory.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={youtube}
+              isBlog={false}
+              title="Youtube Clone"
+              description="Youtube clone app for searching and watching all videos , using Rapid youtube API v3 , React js, Material UI"
+              ghLink="https://github.com/bassameladly/Youtube-Clone"
+              demoLink="https://youtube-clone-ten-xi.vercel.app/"
             />
           </Col>
 
